@@ -25,6 +25,10 @@ class TimeSuite:
         for key in range(500):
             x = d[key]
 
+    def time_range_trial(self):
+        for i in range(1000):
+            pass
+
     def time_xrange(self):
         d = self.d
         for key in xrange(500):
