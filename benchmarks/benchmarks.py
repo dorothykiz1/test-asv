@@ -29,6 +29,11 @@ class TimeSuite:
         for i in range(1000):
             pass
 
+
+    def time_range_trial2(self):
+        for i in range(100):
+            pass
+
     def time_xrange(self):
         d = self.d
         for key in xrange(500):
